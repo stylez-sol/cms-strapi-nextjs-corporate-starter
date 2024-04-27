@@ -6,6 +6,7 @@ const nextConfig = {
       {
         protocol: 'http',
         hostname: 'localhost',
+        //hostname: 'host.docker.internal',
         port: '1337',
         pathname: '/uploads/**',
       },
